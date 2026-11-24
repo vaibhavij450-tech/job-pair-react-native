@@ -1,46 +1,96 @@
-# Job Pair Mobile App
+# Job Pair – React Native Job Search Application
 
- Introducing Job Pair, an open-source powerful job search application built with JavaScript, React Native, and Expo. With its user-friendly interface and advanced features, Job Pair allows you to effortlessly discover and apply for job opportunities in your vicinity, revolutionizing the way you find employment. Experience the convenience of a seamless job search process with Job Pair, where finding your dream job is just a tap away.
+A job search application developed using React Native and Expo. The application provides a simple interface for exploring job opportunities across different employment categories.
 
- ![](https://raw.githubusercontent.com/SudoPengu/job-pair/main/images/1.png)
+## Overview
 
----
-## Images
-| <!-- --> | <!-- --> 
-| --- | --- 
-| ![](https://raw.githubusercontent.com/SudoPengu/job-pair/main/images/2.png) | ![](https://raw.githubusercontent.com/SudoPengu/job-pair/main/images/3.png)| 
+Job Pair is a mobile application designed to make job discovery easier through an intuitive user interface. Users can explore popular job listings, search for opportunities, and browse different employment types.
 
-![](https://raw.githubusercontent.com/SudoPengu/job-pair/main/images/4.png) 
+## Features
 
-## Installation
+- Job search interface
+- Popular job listings
+- Full-time, part-time and contractor job categories
+- User-friendly navigation
+- Mobile-first interface
+- Cross-platform development using Expo
 
->**Warning**
->
-> Make sure you have git, expo, and Node.JS installed in your machine before doing the process.
+## Technology Stack
 
-After having all the necesarry requirements close and execute - 
+- **React Native** – Mobile application development
+- **Expo** – Development and testing environment
+- **JavaScript** – Application logic
+- **Expo Router** – Navigation and routing
+- **Axios** – HTTP requests
+- **Node.js and npm** – Development environment and package management
 
-```shell
-git clone https://github.com/SudoPengu/job-pair.git ~/jobPair
-cd ~/jobPair
+## Project Structure
+
+```text
+job-pair/
+├── app/
+├── assets/
+├── components/
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
+## Installation and Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/vaibhavij450-tech/job-pair-react-native.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd job-pair-react-native
+```
+
+### 3. Install dependencies
+
+```bash
 npm install
+```
+
+### 4. Start the development server
+
+```bash
 npm start
 ```
 
->**Note**
->
-> This is an open source application, you can clone it and just create your own version and use it.
-<deatails>
-<summary><h4>Packages</h4></summary>
+### 5. Run the application
 
-| Packages |
-|---|
-| Node.JS | 
-| React JS |
-| React Native |
-| Expo CLI |
-| Expo Router |
-| Axios |
+- Install Expo Go on your mobile device.
+- Scan the QR code displayed in the terminal.
+- Alternatively, press `w` to open the web version if supported.
 
-</details>
+## Learning Outcomes
 
+This project provides practical exposure to:
+
+- React Native fundamentals
+- Expo-based application development
+- Reusable components
+- JavaScript programming
+- Mobile application navigation
+- Dependency management
+- Application debugging
+
+## Future Improvements
+
+- User authentication and profile management
+- Advanced job search and filtering
+- Location-based job recommendations
+- Job bookmarking and application tracking
+- Regional language support
+- Backend API integration
+
+## Author
+
+**Vaibhavi**
+
+GitHub: [@vaibhavij450-tech](https://github.com/vaibhavij450-tech)
